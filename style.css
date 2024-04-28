@@ -1,0 +1,45 @@
+
+
+
+
+
+/*===========================
+        RESPONSIVE
+=============================*/
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .custom-nav {
+        background-color: #fff !important;
+        padding: 10px 0px !important;
+    }
+    .custom-nav .container {
+        width: 85%;
+    }
+    .custom-nav .navbar-toggler {
+        color: #000;
+        font-size: 26px;
+        border: none;
+    }
+    .custom-nav .logo .logo-dark {
+        display:inline-block;
+    }
+    .custom-nav .navbar-nav li a {
+        color: rgba(0, 0, 0, 0.6) !important;
+    }
+    .custom-nav .logo .logo-light {
+        display:none;
+    }
+    .h-100vh{
+        height:auto;
+    }
+    .header-bg-img{
+        clip-path: none;
+    }
+    .custom-nav .navbar-nav li a {
+        margin: 0 0px;
+        line-height: 15px;
+    }
+    .header-name{
+        font-size:38px;
+    }
+}
