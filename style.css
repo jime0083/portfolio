@@ -1,10 +1,225 @@
+@charset "utf-8";
+/*===========================
+        header
+=============================*/
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.top-page-btn{
+    text-align: center;
+    color: #cd3333;
+    text-decoration:none;
+    margin-bottom: 50px;
+}
+
+.top-page-btn a{
+    border: 1px solid #cd3333;
+    display: inline-block;
+    color: #cd3333;
+    width: 250px;
+    text-decoration:none;
+}
+
+.top-page-btn P{
+    color: #cd3333;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color:  #fff;
+    line-height:0;
+    position: fixed;
+    top: 0;
+}
+
+.header-logo{
+    display: inline-block;
+    /* margin-top: 10px; */
+}
+
+.header-links{
+    /* display: inline-block; */
+    height: 80px;
+}
+
+.header-link{
+    vertical-align: middle;
+    height: 80px;
+    /* margin-top: 20px; */
+}
+
+.header-link:hover{
+    color: #cf2e2e;
+}
+
+.header-img{
+    width: 80px; 
+    height: 80px;
+    display: inline-block;
+}
+
+.header-links a{
+    color: #000;
+    text-decoration:none;
+    padding:0px 30px;
+    display: inline-block;
+    
+}
+
+
+
+.top-page-image {
+    background-image:url("img/enginer.jpg");
+    /* width: 200px;
+    background-size: cover; */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+.top-page-image h1{
+    padding-top: 200px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: #fff;
+    font-size: 70px;
+}
+
+.top-page-image h3{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+.top-page-greeting{
+    background-image:url("img/image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+.top-page-greeting h2{
+    padding-top: 100px;
+}
+
+.top-page-greeting p{
+    font-weight: bold;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#7d7d7d;
+    font-size: 20px;
+}
+
+
+
+.top-page-service{
+    text-align: center;
+}
+
+.top-page-service h2{
+    padding-top: 100px;
+}
+
+.service-wrapper{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-wrapper-content{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.service-wrapper-content a{
+    display: inline-block;
+}
+
+.service-wrapper-content img{
+    width: 240px;
+    height: 240px;
+    border-radius: 150px;
+}
+
+
+
+.top-page-info{
+    background-image:url("img/image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+.top-page-info h2{
+    padding-top: 100px;
+}
+
+
+
+.top-page-acsses{
+    text-align: center;
+}
+
+.top-page-acsses h2{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.top-page-acsses iframe{
+    padding-top: 30px;
+}
 
 
 
 
+
+
+
+.footer-content{
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content img{
+    width: 200px;
+    display: inline-block;
+}
+
+.footer-content h3{
+    display: block;
+}
 
 /*===========================
-        RESPONSIVE
+        responsive
 =============================*/
 
 @media (min-width: 200px) and (max-width: 768px) {
