@@ -22,6 +22,10 @@ a{
     cursor: pointer;
 }
 
+ul{
+    padding: 0;
+}
+
 .top-page-btn{
     text-align: center;
     color: #cd3333;
@@ -50,6 +54,7 @@ a{
     line-height:0;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 .header-logo{
@@ -87,20 +92,26 @@ a{
 }
 
 
-
-.top-page-image {
-    background-image:url("img/enginer.jpg");
-    /* width: 200px;
-    background-size: cover; */
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    text-align: center;
+/* スライダー */
+.slider{
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.slider img{
+    height: 700px;
+    width: 100%;
 }
 
-.top-page-image h1{
+ .top-page-image {
+    text-align: center;
+} 
+
+/* .top-page-image h1{
     padding-top: 200px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
@@ -113,8 +124,31 @@ a{
     -webkit-text-stroke-color: black;
     color: #fff;
     font-size: 40px;
+} */
+
+.slider-coment{
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
 
+.slider-coment h1{
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: #fff;
+}
+
+.slider-coment h3{
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #fff;
+}
 
 
 .top-page-greeting{
@@ -133,9 +167,9 @@ a{
 
 .top-page-greeting p{
     font-weight: bold;
-    color: #fff;
+    /* color: #fff;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:#7d7d7d;
+    -webkit-text-stroke-color:#7d7d7d; */
     font-size: 20px;
 }
 
