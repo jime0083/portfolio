@@ -39,6 +39,7 @@ ul{
     color: #cd3333;
     width: 250px;
     text-decoration:none;
+    padding: 15px 0;
 }
 
 .top-page-btn P{
@@ -46,6 +47,16 @@ ul{
     text-decoration:none;
     vertical-align: middle;
 }
+
+
+/* ボタンhover */
+.top-page-btn a:hover{
+    background-color: #cd3333;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+
 
 .header{
     height: 80px;
@@ -152,7 +163,7 @@ ul{
 
 
 .top-page-greeting{
-    background-image:url("img/image.jpg");
+    background-image:url("img/back1.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -163,6 +174,38 @@ ul{
 
 .top-page-greeting h2{
     padding-top: 100px;
+}
+
+/* タイトルした横線 */
+
+.title{
+    color: #12589d;
+    position: relative;
+    display: inline-block;
+    padding: 0 65px ;
+    font-size: 15px;
+}
+
+.title::before{
+    content: '';
+    background-color: #12589d;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+}
+
+.title::after{
+    content: '';
+    background-color: #12589d;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
 }
 
 .top-page-greeting p{
@@ -184,31 +227,50 @@ ul{
 }
 
 .service-wrapper{
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
+    display: inline-block;
 }
 
 .service-wrapper-content{
     text-align: center;
-    width: 30%;
+    width: 33%;
     display: inline-block;
     padding-bottom: 30px;
 }
 
 .service-wrapper-content a{
-    display: inline-block;
+    display: block;
+    font-weight: bold;
+    color: #000;
 }
 
 .service-wrapper-content img{
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 150px;
+    overflow: hidden;
+}
+
+.u-cent{
+    padding-top: 5px;
 }
 
 
+/* サービスhover */
+.service-wrapper-content :hover img{
+    transform:scale(1.1);
+    transition:0.3s;
+    color: #7d7d7d;
+}
+
+.service-wrapper-content :hover{
+    color: #7d7d7d;
+}
+
 
 .top-page-info{
-    background-image:url("img/image.jpg");
+    background-image:url("img/back1.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -236,6 +298,8 @@ ul{
 .top-page-acsses iframe{
     padding-top: 30px;
     padding-bottom: 50px;
+    display: block;
+    margin: auto;
 }
 
 
