@@ -1,3 +1,5 @@
+/* serviceページ */
+
 .service-top{
     text-align: center;
 }
@@ -13,6 +15,23 @@
 }
 
 .service-top-img h2{
+    /* margin: auto; */
+    padding-top: 200px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.company-top-img{
+    background-image:url("img/vision.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.company-top-img h2{
     /* margin: auto; */
     padding-top: 200px;
     color: #fff;
@@ -94,3 +113,65 @@
     padding-left: 10px;
     padding-top: 5px;
 }
+
+
+/* companyページ */
+
+.about-wrapper{
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+.about-contents{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.abaout-content{
+    border-bottom: solid 1px #dcdcdc;
+    text-align: left;
+    width: 90%;
+    display: inline-block;
+}
+
+.about-left{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-right{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+/* accessページ */
+
+.access-top-img{
+    background-image:url("img/walk.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.access-top-img h2{
+    padding-top: 200px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.accwss-wrapper{
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+
+

@@ -20,12 +20,20 @@ h3{
     margin: 0px;
 }
 
+p{
+    margin: 0;
+}
+
 a{
     cursor: pointer;
 }
 
 ul{
     padding: 0;
+}
+
+.p-t-20{
+    padding-top: 20px;
 }
 
 .m-t-20{
@@ -182,12 +190,12 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     text-align: center;
 }
 
 .top-page-greeting h2{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 /* タイトルした横線 */
@@ -340,7 +348,93 @@ ul{
     /* color: #fff; */
 }
 
+.recluting-contents{
+    padding-bottom: 30px;
+}
 
+.recluting-contents p{
+    padding-top: 10px;
+}
+
+
+.top-page-partner{
+    background-image: url("img/night.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.top-page-partner h2{
+    padding-top: 100px;
+    color: #fff;
+}
+
+.top-page-partner p{
+    color: #fff;
+    padding-top: 5px;
+}
+
+.partner-contents{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-partner{
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 0 65px ;
+    font-size: 15px;
+}
+
+.title-partner::before{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+}
+
+.title-partner::after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+}
+
+.partner-btn{
+    text-align: center;
+    color: #fff;
+    text-decoration:none;
+    margin-bottom: 50px;
+}
+
+.partner-btn a{
+    border: 2px solid #fff;
+    display: inline-block;
+    color: #fff;
+    width: 250px;
+    text-decoration:none;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+/* ボタンhover */
+.partner-btn a:hover{
+    background-color: #fff;
+    transition: all 0.2s;
+    color: #000;
+    font-weight: bold;
+}
 
 
 
@@ -351,6 +445,7 @@ ul{
     text-align: center;
     width: 100%;
     padding: 30px 0;
+    background-color: #dcdcdc;
 }
 
 .footer-content img{
