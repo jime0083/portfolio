@@ -1,0 +1,113 @@
+/* recruitヘッダー */
+
+.recruit-header{
+    width: 100%;
+    background-color: #222;
+    vertical-align: middle;
+}
+
+.recruit-header-content{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recruit-header-links{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recruit-header-logo{
+    display: inline-block;
+}
+
+.recruit-header-logo img{
+    width: 180px;
+}
+
+.header-btn{
+    display: inline-block;
+}
+
+.recruit-header-link{
+    display: inline-block;
+    width: 220px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.link-1{
+    background-color: #79d3f3;
+}
+
+.link-2{
+    background-color: #241d88;
+}
+
+.link-3{
+    background-color: #129d57;
+}
+
+.link-4{
+    background-color: #12589d;
+}
+
+
+
+
+.recuruit-top-contents{
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.recuruit-top-contents h2{
+    color: #fff;
+}
+
+.recuruit-top-contents p{
+    color: #fff;
+}
+
+
+
+
+.recruti-mid{
+    width: 100%;
+    text-align: center;
+}
+
+.recruti-mid h2{
+}
+
+.recruti-mid p{
+}
+
+.recruti-mid{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.recruit-1{
+    background-image: url("img/reclute.jpg");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.recruit-2{
+    background-image: url("img/work.jpg");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.recruit-3{
+    background-image: url("img/work2.jpg");
+    opacity: 0.5;
+    background-size: cover;
+}
