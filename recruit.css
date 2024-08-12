@@ -68,10 +68,12 @@
 
 .recuruit-top-contents h2{
     color: #fff;
+    padding: 50px 0;
 }
 
 .recuruit-top-contents p{
     color: #fff;
+    padding: 50px 0 50px 0;
 }
 
 
@@ -83,9 +85,13 @@
 }
 
 .recruti-mid h2{
+    color: #fff;
+    padding-top: 50px;
 }
 
 .recruti-mid p{
+    color: #fff;
+    padding-top: 50px;
 }
 
 .recruti-mid{
@@ -95,19 +101,16 @@
 }
 
 .recruit-1{
-    background-image: url("img/reclute.jpg");
-    opacity: 0.5;
+    background-image: url("img/recrut3-bl.jpg");
     background-size: cover;
 }
 
 .recruit-2{
-    background-image: url("img/work.jpg");
-    opacity: 0.5;
+    background-image: url("img/iphone-bl.jpg");
     background-size: cover;
 }
 
 .recruit-3{
-    background-image: url("img/work2.jpg");
-    opacity: 0.5;
+    background-image: url("img/work-bl.jpg");
     background-size: cover;
 }
